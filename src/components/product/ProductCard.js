@@ -70,7 +70,7 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
   const { addItem } = useCart();
   const { toggleItem, isInWishlist } = useWishlist();
   const { showToast } = useToast();
-
+  const discount = getDiscountPercent(product.price, product.compareAtPrice);
   const wishlisted = isInWishlist(product.id);
 
   const handleMouseMove = useCallback((e) => {
@@ -193,6 +193,15 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
             <div className={styles.shine} />
 
             <div className={styles.badges}>
+              {discount > 0 && (
+                <span className={`${styles.badge} ${styles.badgeSale}`}>-{discount}%</span>
+              )}
+              {product.newArrival && (
+                <span className={`${styles.badge} ${styles.badgeNew}`}>New</span>
+              )}
+              {product.bestseller && (
+                <span className={`${styles.badge} ${styles.badgeBestseller}`}>Bestseller</span>
+              )}
               {!product.inStock && (
                 <span className={`${styles.badge}`} style={{ backgroundColor: "var(--color-surface-hover)", color: "var(--color-text-secondary)", border: "1px solid var(--color-border)" }}>Sold Out</span>
               )}
@@ -223,6 +232,9 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
                 <span className={styles.price}>
                   {formatPrice(product.price)}
                 </span>
+                {product.compareAtPrice && product.compareAtPrice > product.price && (
+                  <span className={styles.comparePrice}>{formatPrice(product.compareAtPrice)}</span>
+                )}
               </div>
             </div>
           ) : (
@@ -237,6 +249,9 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
                   <span className={styles.price}>
                     {formatPrice(product.price)}
                   </span>
+                  {product.compareAtPrice && product.compareAtPrice > product.price && (
+                    <span className={styles.comparePrice}>{formatPrice(product.compareAtPrice)}</span>
+                  )}
                 </div>
               </div>
               <button className={styles.flipHint} onClick={handleFlip}>
