@@ -434,7 +434,7 @@ export default function ProductClient({ product, relatedProducts = [], isModal =
                 marginTop: "12px",
                 textAlign: "center"
               }}>
-                <p style={{ margin: "0 0 8px 0", fontSize: "0.78rem", color: "#7a403d", fontWeight: 600, letterSpacing: "0.01em" }}>
+                <p style={{ margin: "0 0 8px 0", fontSize: "0.78rem", color: "var(--color-primary, #3E5F44)", fontWeight: 600, letterSpacing: "0.01em" }}>
                   Currently Sold Out • Join Restock List
                 </p>
                 <EmailCapture 

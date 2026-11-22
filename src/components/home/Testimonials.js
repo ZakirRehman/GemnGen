@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Testimonials.module.css';
 
 // Ultra-clean, unmistakable female silhouette icons in pure vector line-art
-function FemalePortraitIcon({ variant = 1, size = 18, color = "#7A403D" }) {
+function FemalePortraitIcon({ variant = 1, size = 18, color = "var(--color-primary, #3E5F44)" }) {
   const type = ((variant - 1) % 4) + 1;
 
   if (type === 1) {

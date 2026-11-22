@@ -5,8 +5,8 @@ import LoginForm from "./LoginForm";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Admin Login | NailExpress",
-  description: "Sign in to access NailExpress Seller Dashboard",
+  title: "Admin Login | Gem&Gen",
+  description: "Sign in to access Gem&Gen Seller Dashboard",
 };
 
 export default async function AdminLoginPage() {

@@ -8,7 +8,7 @@ const FEATURES_DATA = [
   {
     id: 1,
     image: "/images/apply.png",
-    alt: "How to apply Nail Express press-on nails"
+    alt: "How to apply Gem&Gen press-on nails"
   },
   {
     id: 2,

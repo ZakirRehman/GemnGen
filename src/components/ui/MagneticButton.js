@@ -88,19 +88,19 @@ export default function MagneticButton({
         }
         @keyframes attentionPopHeartbeat {
           0%, 65%, 100% {
-            box-shadow: 0 4px 14px rgba(122, 64, 61, 0.18);
+            box-shadow: 0 4px 14px rgba(49, 75, 53, 0.18);
             transform: scale(1);
           }
           72% {
-            box-shadow: 0 10px 28px rgba(122, 64, 61, 0.38), 0 0 20px rgba(255, 175, 185, 0.5);
+            box-shadow: 0 10px 28px rgba(49, 75, 53, 0.38), 0 0 20px rgba(217, 107, 126, 0.5);
             transform: scale(1.07);
           }
           80% {
-            box-shadow: 0 4px 14px rgba(122, 64, 61, 0.2);
+            box-shadow: 0 4px 14px rgba(49, 75, 53, 0.2);
             transform: scale(1.02);
           }
           88% {
-            box-shadow: 0 12px 30px rgba(122, 64, 61, 0.42), 0 0 24px rgba(255, 175, 185, 0.6);
+            box-shadow: 0 12px 30px rgba(49, 75, 53, 0.42), 0 0 24px rgba(217, 107, 126, 0.6);
             transform: scale(1.06);
           }
         }

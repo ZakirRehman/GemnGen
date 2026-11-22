@@ -1644,7 +1644,7 @@ function ProductsContent({ initialProducts = [], initialCollections = [] }) {
                 alignItems: "center",
                 justifyContent: "space-between",
                 gap: "8px",
-                color: "var(--color-primary, #7a403d)",
+                color: "var(--color-primary, #3E5F44)",
                 fontWeight: 600,
                 borderTop: "1px solid var(--color-border-light)",
                 borderBottom: "1px solid var(--color-border-light)",

@@ -3,7 +3,7 @@ import { getProducts } from "@/lib/api";
 import SearchClient from "./SearchClient";
 
 export const metadata = {
-  title: "Search Results — Nailexpress",
+  title: "Search Results — Gem&Gen",
   description: "Search for your favorite press-on nails.",
 };
 

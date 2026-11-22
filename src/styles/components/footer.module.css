@@ -1,6 +1,6 @@
 /* ── Pill-shaped Footer matching landing page ── */
 .footer {
-  background-color: var(--color-primary-800, #6b3634);
+  background-color: var(--color-primary-800, #314B35);
   color: #ffffff;
   padding: var(--space-8) var(--space-6);
   margin: var(--space-12) auto 30px auto;
@@ -32,10 +32,10 @@
 }
 
 .footerLogoImg {
-  height: 38px;
+  height: 42px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
 }
 
 .links {
@@ -90,7 +90,7 @@
 
 .tagline {
   font-size: 0.72rem;
-  color: rgba(245, 227, 229, 0.85);
+  color: rgba(242, 235, 229, 0.9);
   letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +105,7 @@
 
 .copyright {
   font-size: 0.64rem;
-  color: rgba(245, 227, 229, 0.6);
+  color: rgba(242, 235, 229, 0.65);
   letter-spacing: 0.03em;
 }
 

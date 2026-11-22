@@ -192,7 +192,7 @@ export default function OrdersClient({ initialOrders }) {
               cursor: "pointer",
               whiteSpace: "nowrap",
               flexShrink: 0,
-              backgroundColor: activeStatusFilter === tab.id ? "var(--color-primary, #7a403d)" : "#f3ebea",
+              backgroundColor: activeStatusFilter === tab.id ? "var(--color-primary, #3E5F44)" : "var(--color-surface-hover, #EFF3EE)",
               color: activeStatusFilter === tab.id ? "#ffffff" : "#444",
               transition: "all 0.2s"
             }}

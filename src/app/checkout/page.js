@@ -237,8 +237,8 @@ export default function CheckoutPage() {
     }
     if (!phone) {
       errs.phone = "Please enter your phone number";
-    } else if (!/^(?:\+?234|0)[0-9]{10}$/.test(phone.replace(/\s/g, ""))) {
-      errs.phone = "Please enter a valid phone number (e.g. 08012345678)";
+    } else if (!/^(?:\+?[0-9]{7,15})$/.test(phone.replace(/[\s-]/g, ""))) {
+      errs.phone = "Please enter a valid phone number (e.g. +923068694805 or 08012345678)";
     }
     if (!formData.address.trim()) errs.address = "Please enter your street address";
     if (!formData.state) errs.state = "Please select your state";
@@ -756,7 +756,7 @@ export default function CheckoutPage() {
                   </div>
                   <div>
                     <label htmlFor="phone" style={{ display: "block", fontSize: "0.875rem", marginBottom: "4px", color: "var(--color-text-secondary)" }}>Phone Number</label>
-                    <input required type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} placeholder="e.g., 0801 234 5678" aria-invalid={!!errors.phone} className={addrStyles.formInput} style={{ width: "100%", padding: "10px", borderRadius: "8px", border: `1px solid ${errors.phone ? "var(--color-error)" : "var(--color-border)"}`, outline: "none" }} />
+                    <input required type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} placeholder="e.g., +92 306 8694805" aria-invalid={!!errors.phone} className={addrStyles.formInput} style={{ width: "100%", padding: "10px", borderRadius: "8px", border: `1px solid ${errors.phone ? "var(--color-error)" : "var(--color-border)"}`, outline: "none" }} />
                     {errors.phone && <p style={{ color: "var(--color-error)", fontSize: "0.75rem", marginTop: "4px" }}>{errors.phone}</p>}
                   </div>
                 </div>
@@ -972,7 +972,7 @@ export default function CheckoutPage() {
               color: "white",
               border: "none",
               cursor: "pointer",
-              boxShadow: "0 4px 12px rgba(122, 64, 61, 0.2)",
+              boxShadow: "0 4px 12px rgba(49, 75, 53, 0.2)",
             }}
           >
             {isSubmitting ? "Processing..." : (!isAddressComplete ? "Add Address" : (!shippingMethod ? "Choose Delivery" : "Place Order"))}

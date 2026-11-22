@@ -12,25 +12,25 @@ import FooterHero from "@/components/home/FooterHero";
 import { getProducts } from "@/lib/api";
 
 export const metadata = {
-  title: "Nailexpress — Premium Press-On Nails in Nigeria",
-  description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+  title: "Gem&Gen — Premium Press-On Nails",
+  description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
   openGraph: {
-    title: "Nailexpress — Premium Press-On Nails in Nigeria",
-    description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+    title: "Gem&Gen — Premium Press-On Nails",
+    description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
     images: [
       {
         url: "/images/og-preview.jpg",
         width: 1200,
         height: 630,
-        alt: "Nailexpress — Premium Press-On Nails",
+        alt: "Gem&Gen — Premium Press-On Nails",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nailexpress — Premium Press-On Nails in Nigeria",
-    description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+    title: "Gem&Gen — Premium Press-On Nails",
+    description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
     images: ["/images/og-preview.jpg"],
   },
 };

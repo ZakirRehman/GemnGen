@@ -5,7 +5,7 @@
   right: var(--space-4);
   background: white;
   border: 1px solid var(--color-border);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), 0 2px 10px rgba(122, 64, 61, 0.08);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), 0 2px 10px rgba(49, 75, 53, 0.08);
   border-radius: var(--radius-xl);
   padding: var(--space-3);
   display: flex;

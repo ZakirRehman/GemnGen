@@ -322,8 +322,8 @@ export default function DashboardClient({ initialProducts = [], initialOrders = 
       {/* Quick Action banner for Abandoned Recoveries if any */}
       {stats.abandonedCount > 0 && (
         <div style={{
-          background: "linear-gradient(135deg, rgba(122, 64, 61, 0.06), rgba(122, 64, 61, 0.02))",
-          border: "1px solid rgba(122, 64, 61, 0.15)",
+          background: "linear-gradient(135deg, rgba(49, 75, 53, 0.06), rgba(49, 75, 53, 0.02))",
+          border: "1px solid rgba(49, 75, 53, 0.15)",
           borderRadius: "10px",
           padding: "10px 14px",
           marginBottom: "12px",
@@ -338,7 +338,7 @@ export default function DashboardClient({ initialProducts = [], initialOrders = 
               width: "36px",
               height: "36px",
               borderRadius: "50%",
-              background: "rgba(122, 64, 61, 0.12)",
+              background: "rgba(49, 75, 53, 0.12)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",

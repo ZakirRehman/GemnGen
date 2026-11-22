@@ -96,10 +96,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className={styles.logo} id="site-logo">
             <Image
-              src="/images/splash-logo.png"
-              alt="Nailexpress Logo"
-              width={150}
-              height={45}
+              src="/images/gemandgen-logo.png"
+              alt="Gem&Gen Logo"
+              width={140}
+              height={78}
               className={styles.logoImg}
               priority
             />
@@ -218,10 +218,10 @@ export default function Header() {
             <div className={styles.mobileNavHeader}>
               <Link href="/" className={styles.logo} onClick={() => setMobileOpen(false)}>
                 <Image
-                  src="/images/splash-logo.png"
-                  alt="Nailexpress Logo"
+                  src="/images/gemandgen-logo.png"
+                  alt="Gem&Gen Logo"
                   width={140}
-                  height={40}
+                  height={78}
                   className={styles.logoImg}
                   priority
                 />

@@ -21,7 +21,7 @@
   gap: 6px;
   background: rgba(255, 255, 255, 0.85);
   color: var(--color-text-secondary);
-  border: 1px solid rgba(122, 64, 61, 0.15);
+  border: 1px solid rgba(49, 75, 53, 0.15);
   padding: 4px 11px;
   border-radius: var(--radius-full);
   font-family: var(--font-body);
@@ -30,14 +30,14 @@
   letter-spacing: 0.02em;
   margin-top: 6px;
   margin-bottom: var(--space-4);
-  box-shadow: 0 2px 8px rgba(122, 64, 61, 0.05);
+  box-shadow: 0 2px 8px rgba(49, 75, 53, 0.05);
   user-select: none;
   animation: badgePulse 3.5s ease-in-out infinite;
 }
 
 @keyframes badgePulse {
   0%, 100% { transform: scale(1); opacity: 0.88; }
-  50% { transform: scale(1.02); opacity: 1; border-color: rgba(122, 64, 61, 0.28); }
+  50% { transform: scale(1.02); opacity: 1; border-color: rgba(49, 75, 53, 0.28); }
 }
 
 .imageWrapper {
@@ -95,7 +95,7 @@
   right: -24px;
   width: 14px;
   height: 60px;
-  background: linear-gradient(135deg, #7a403d 0%, #4a211f 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   border: 1.5px solid #d4af7a;
   border-radius: 7px;
   transform: rotate(-45deg);
@@ -121,7 +121,7 @@
   border: 3px solid rgba(212, 175, 122, 0.85);
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(2px);
-  box-shadow: 0 8px 24px rgba(122, 64, 61, 0.25);
+  box-shadow: 0 8px 24px rgba(49, 75, 53, 0.25);
 }
 
 .idleGlassGlint {
@@ -141,7 +141,7 @@
   right: -10px;
   width: 8px;
   height: 28px;
-  background: #7a403d;
+  background: var(--color-primary);
   border: 1px solid #d4af7a;
   border-radius: 4px;
   transform: rotate(-45deg);

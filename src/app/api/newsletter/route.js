@@ -26,8 +26,8 @@ export async function POST(request) {
     }
 
     const cleanEmail = email.trim().toLowerCase();
-    const adminEmail = process.env.ADMIN_EMAIL || 'nailxpressng@gmail.com';
-    const sender = process.env.SENDER_EMAIL || 'orders@nailexpress.ng';
+    const adminEmail = process.env.ADMIN_EMAIL || 'gemandgen@gmail.com';
+    const sender = process.env.SENDER_EMAIL || 'orders@gemandgen.com';
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://nailexpress.ng';
 
     // 1. Save subscriber to Supabase
@@ -67,7 +67,7 @@ export async function POST(request) {
           <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px; margin:30px auto; background-color:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.06); border:1px solid #eae1e0;">
             <tr>
               <td align="center" style="background-color:#1a1a1a; padding:36px 20px; text-align:center;">
-                <h1 style="color:#ffffff; margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-size:28px; letter-spacing:4px; text-transform:uppercase;">NAILEXPRESS</h1>
+                <h1 style="color:#ffffff; margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-size:28px; letter-spacing:4px; text-transform:uppercase;">GEM&GEN</h1>
                 <p style="color:#999; margin:6px 0 0 0; font-size:11px; letter-spacing:3px; text-transform:uppercase;">Premium Press-On Nails</p>
               </td>
             </tr>
@@ -78,7 +78,7 @@ export async function POST(request) {
                 <p style="font-size:15px; color:#555; line-height:1.7; margin:0 0 24px 0;">
                   We'll send you a personal email the moment <strong style="color:#1a1a1a;">${dropName}</strong> goes live — so you're first in line before anyone else.
                 </p>
-                <div style="background-color:#f7f3f2; border-left:3px solid #7a403d; padding:16px 20px; border-radius:4px; margin-bottom:28px;">
+                <div style="background-color:#f7f3f2; border-left:3px solid #3E5F44; padding:16px 20px; border-radius:4px; margin-bottom:28px;">
                   <p style="margin:0; font-size:13px; color:#555; line-height:1.8;">
                     ✦ Early access for waitlist members<br>
                     ✦ First look at new pieces<br>
@@ -94,7 +94,7 @@ export async function POST(request) {
             </tr>
             <tr>
               <td style="background-color:#fcf6f6; padding:20px; text-align:center; border-top:1px solid #f0e6e5; font-size:12px; color:#777;">
-                © ${new Date().getFullYear()} Nailexpress • Lagos, Nigeria
+                © ${new Date().getFullYear()} Gem&Gen
               </td>
             </tr>
           </table>
@@ -103,7 +103,7 @@ export async function POST(request) {
       `;
 
       await resend.emails.send({
-        from: `Nailexpress <${sender}>`,
+        from: `Gem&Gen <${sender}>`,
         to: [cleanEmail],
         replyTo: adminEmail,
         subject: `You're on the waitlist — ${dropName} ✦`,
@@ -122,19 +122,19 @@ export async function POST(request) {
         <body style="margin:0; padding:0; background-color:#f7f3f2; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
           <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px; margin:30px auto; background-color:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.06); border:1px solid #eae1e0;">
             <tr>
-              <td align="center" style="background-color:#7a403d; padding:32px 20px; text-align:center;">
-                <h1 style="color:#ffffff; margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-size:28px; letter-spacing:4px; text-transform:uppercase;">NAILEXPRESS</h1>
-                <p style="color:#eac5c1; margin:4px 0 0 0; font-size:11px; letter-spacing:3px; text-transform:uppercase;">Premium Press-On Nails</p>
+              <td align="center" style="background-color:#3E5F44; padding:32px 20px; text-align:center;">
+                <h1 style="color:#ffffff; margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-size:28px; letter-spacing:4px; text-transform:uppercase;">GEM&GEN</h1>
+                <p style="color:#FADCE2; margin:4px 0 0 0; font-size:11px; letter-spacing:3px; text-transform:uppercase;">Premium Press-On Nails</p>
               </td>
             </tr>
             <tr>
               <td style="padding:36px 28px;">
-                <h2 style="color:#7a403d; font-family:'Cormorant Garamond', Georgia, serif; font-size:24px; margin-top:0;">You're on the list!</h2>
+                <h2 style="color:#3E5F44; font-family:'Cormorant Garamond', Georgia, serif; font-size:24px; margin-top:0;">You're on the list!</h2>
                 <p style="font-size:15px; color:#444; line-height:1.6;">
-                  Thank you for joining Nailexpress! You'll be the first to know about new drop releases, exclusive VIP secret sales, and fresh handmade nail art inspirations.
+                  Thank you for joining Gem&Gen! You'll be the first to know about new drop releases, exclusive VIP secret sales, and fresh handmade nail art inspirations.
                 </p>
                 <div style="text-align:center; margin:28px 0;">
-                  <a href="${siteUrl}/shop" style="display:inline-block; padding:13px 28px; background-color:#7a403d; color:#ffffff; text-decoration:none; border-radius:8px; font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:1px;">
+                  <a href="${siteUrl}/shop" style="display:inline-block; padding:13px 28px; background-color:#3E5F44; color:#ffffff; text-decoration:none; border-radius:8px; font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:1px;">
                     Explore New Drops ↗
                   </a>
                 </div>
@@ -142,7 +142,7 @@ export async function POST(request) {
             </tr>
             <tr>
               <td style="background-color:#fcf6f6; padding:20px; text-align:center; border-top:1px solid #f0e6e5; font-size:12px; color:#777;">
-                © ${new Date().getFullYear()} Nailexpress • Lagos, Nigeria
+                © ${new Date().getFullYear()} Gem&Gen
               </td>
             </tr>
           </table>
@@ -151,10 +151,10 @@ export async function POST(request) {
       `;
 
       await resend.emails.send({
-        from: `Nailexpress <${sender}>`,
+        from: `Gem&Gen <${sender}>`,
         to: [cleanEmail],
         replyTo: adminEmail,
-        subject: "Welcome to the Nailexpress Inner Circle ✨",
+        subject: "Welcome to the Gem&Gen Inner Circle ✨",
         html: welcomeHtml
       }).catch(e => console.error("Subscriber email send error:", e));
     }

@@ -3,7 +3,7 @@ import CollectionClient from "@/components/product/CollectionClient";
 import FindYourFitQuiz from "@/components/product/FindYourFitQuiz";
 
 export const metadata = {
-  title: "Factory Made Nails — Nailexpress",
+  title: "Factory Made Nails — Gem&Gen",
   description: "Affordable, durable, salon-ready press-on nails. Instant 10-minute application, trendy designs, and long-lasting wear. Order your set today.",
   alternates: {
     canonical: "https://www.nailexpress.ng/factory",
@@ -20,14 +20,14 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Factory Made Nails — Nailexpress",
+    title: "Factory Made Nails — Gem&Gen",
     description: "Affordable, durable, salon-ready press-on nails. Instant 10-minute application, trendy designs, and long-lasting wear. Order your set today.",
     url: "https://www.nailexpress.ng/factory",
     images: [{ url: "/images/factory-collection.png", width: 1200, height: 630, alt: "Factory Made Nails Collection" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Factory Made Nails — Nailexpress",
+    title: "Factory Made Nails — Gem&Gen",
     description: "Affordable, durable, salon-ready press-on nails. Instant 10-minute application, trendy designs, and long-lasting wear. Order your set today.",
     images: ["/images/factory-collection.png"],
   },

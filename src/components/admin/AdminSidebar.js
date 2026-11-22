@@ -62,7 +62,7 @@ function SidebarContent() {
             </button>
             <Link href="/admin" style={{ textDecoration: "none" }}>
               <div style={{ fontWeight: 700, fontSize: "1.25rem", fontFamily: "'Cormorant Upright', Georgia, serif", color: "var(--color-primary)", lineHeight: 1 }}>
-                Nail Express <span style={{ fontSize: "0.75rem", fontFamily: "var(--font-primary, sans-serif)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, color: "var(--color-text-secondary)", marginLeft: "4px" }}>Admin</span>
+                Gem&amp;Gen <span style={{ fontSize: "0.75rem", fontFamily: "var(--font-primary, sans-serif)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, color: "var(--color-text-secondary)", marginLeft: "4px" }}>Admin</span>
               </div>
             </Link>
           </div>
@@ -86,7 +86,7 @@ function SidebarContent() {
       >
         <div className={styles.sidebarLogo}>
           <Link href="/" className={styles.logoText}>
-            Nail Express
+            Gem&amp;Gen
           </Link>
           <button 
             className={styles.closeSidebarBtn} 

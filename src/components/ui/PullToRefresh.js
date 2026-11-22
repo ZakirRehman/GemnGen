@@ -122,13 +122,13 @@ export default function PullToRefresh({ children }) {
                 height: '42px',
                 backgroundColor: '#ffffff',
                 borderRadius: '50%',
-                boxShadow: '0 4px 16px rgba(122, 64, 61, 0.2)',
+                boxShadow: '0 4px 16px rgba(49, 75, 53, 0.2)',
                 transform: `scale(${scale}) rotate(${isRefreshing ? 720 : progress * 180}deg)`,
                 transition: isRefreshing ? 'all 1s ease-in-out' : 'none',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                color: 'var(--color-primary, #7a403d)',
+                color: 'var(--color-primary, #3E5F44)',
               }}
             >
               <RefreshCw size={22} strokeWidth={2.2} />
@@ -138,7 +138,7 @@ export default function PullToRefresh({ children }) {
                 fontSize: '0.72rem',
                 fontWeight: 700,
                 marginTop: '6px',
-                color: 'var(--color-primary, #7a403d)',
+                color: 'var(--color-primary, #3E5F44)',
                 opacity: progress,
                 transition: 'opacity 0.2s',
                 textTransform: 'uppercase',

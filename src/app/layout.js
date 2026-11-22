@@ -12,7 +12,7 @@ import InstallPrompt from "@/components/layout/InstallPrompt";
 import RouteRestoration from "@/components/layout/RouteRestoration";
 
 export const viewport = {
-  themeColor: "#F5E3E5",
+  themeColor: "#F2EBE5",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
@@ -22,26 +22,25 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nailexpress.ng'),
   title: {
-    default: "Nailexpress — Buy Premium Press-On Nails in Nigeria | Handmade & Factory Made",
-    template: "%s | Nailexpress Nigeria",
+    default: "Gem&Gen — Buy Premium Press-On Nails | Handmade & Factory Made",
+    template: "%s | Gem&Gen",
   },
-  description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+  description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
   keywords: [
-    "press-on nails Nigeria",
-    "buy press on nails Lagos",
-    "handmade press-on nails Nigeria",
+    "press-on nails",
+    "buy press on nails",
+    "handmade press-on nails",
     "premium press on nails",
     "salon-grade press-on nails",
-    "custom nail art Nigeria",
-    "press on nails Abuja",
-    "wholesale press-on nails Nigeria",
-    "reusable fake nails Nigeria",
+    "custom nail art",
+    "Gem&Gen nails",
+    "reusable fake nails",
     "nail extension kit",
     "salon press ons"
   ],
-  authors: [{ name: "Nailexpress" }],
-  creator: "Nailexpress",
-  publisher: "Nailexpress",
+  authors: [{ name: "Gem&Gen" }],
+  creator: "Gem&Gen",
+  publisher: "Gem&Gen",
   alternates: {
     canonical: "https://www.nailexpress.ng",
   },
@@ -65,16 +64,16 @@ export const metadata = {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
   },
   openGraph: {
-    title: "Nailexpress — Premium Press-On Nails in Nigeria",
-    description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+    title: "Gem&Gen — Premium Press-On Nails",
+    description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
     url: "https://www.nailexpress.ng",
-    siteName: "Nailexpress",
+    siteName: "Gem&Gen",
     images: [
       {
         url: "/images/og-preview.jpg",
         width: 1200,
         height: 630,
-        alt: "Nailexpress — Premium Press-On Nails",
+        alt: "Gem&Gen — Premium Press-On Nails",
       },
     ],
     locale: "en_NG",
@@ -82,10 +81,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nailexpress — Premium Press-On Nails in Nigeria",
-    description: "Shop premium press-on nails in Nigeria, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast nationwide delivery.",
+    title: "Gem&Gen — Premium Press-On Nails",
+    description: "Shop premium press-on nails from Gem&Gen, from handmade artistry to factory precision. Reusable salon-grade sets, instant application & fast delivery.",
     images: ["/images/og-preview.jpg"],
-    creator: "@nailexpressng",
+    creator: "@gemandgen",
   },
   manifest: "/manifest.json",
   icons: {
@@ -99,7 +98,7 @@ export const metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Nailexpress",
+    title: "Gem&Gen",
     startupImage: [
       { url: "/splash/apple-splash-2064-2752.jpg", media: "(device-width: 1032px) and (device-height: 1376px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: light)" },
       { url: "/splash/apple-splash-2064-2752.jpg", media: "(device-width: 1032px) and (device-height: 1376px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) and (prefers-color-scheme: dark)" },
@@ -199,7 +198,7 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Nailexpress — Press-On Perfection",
+    title: "Gem&Gen — Press-On Perfection",
     description: "Press-on perfection — handmade artistry & factory precision.",
     type: "website",
   },
@@ -214,26 +213,26 @@ export default function RootLayout({ children, modal }) {
       {
         "@type": "Organization",
         "@id": `${baseUrl}/#organization`,
-        "name": "Nailexpress",
+        "name": "Gem&Gen",
         "url": baseUrl,
         "logo": {
           "@type": "ImageObject",
-          "url": `${baseUrl}/images/splash-logo.png`,
-          "width": 512,
-          "height": 512
+          "url": `${baseUrl}/images/gemandgen-logo.png`,
+          "width": 669,
+          "height": 373
         },
-        "description": "Premium press-on nails brand in Nigeria. Handmade artistry, factory precision sets, and custom orders.",
+        "description": "Premium press-on nails brand. Handmade artistry, factory precision sets, and custom orders.",
         "sameAs": [
-          "https://instagram.com/nailexpress.ng",
-          "https://tiktok.com/@nailexpress.ng",
-          "https://t.me/nailexpressng"
+          "https://instagram.com/gemandgen",
+          "https://tiktok.com/@gemandgen",
+          "https://t.me/gemandgen"
         ]
       },
       {
         "@type": "WebSite",
         "@id": `${baseUrl}/#website`,
         "url": baseUrl,
-        "name": "Nailexpress",
+        "name": "Gem&Gen",
         "publisher": {
           "@id": `${baseUrl}/#organization`
         },
@@ -249,7 +248,7 @@ export default function RootLayout({ children, modal }) {
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <head>
-        <meta name="theme-color" content="#F5E3E5" />
+        <meta name="theme-color" content="#F2EBE5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192x192.png" />

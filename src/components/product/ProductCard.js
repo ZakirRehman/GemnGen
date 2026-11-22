@@ -268,7 +268,7 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
             <div className={styles.backContent} onClick={(e) => e.stopPropagation()}>
               {!product.inStock ? (
                 <div style={{ width: "100%", textAlign: "center", padding: "4px 0" }}>
-                  <p style={{ margin: "0 0 8px 0", fontSize: "0.75rem", color: "var(--color-primary-800, #7a403d)", fontWeight: 600 }}>
+                  <p style={{ margin: "0 0 8px 0", fontSize: "0.75rem", color: "var(--color-primary-800, #314B35)", fontWeight: 600 }}>
                     Sold Out • Join Restock List
                   </p>
                   <EmailCapture 
@@ -316,7 +316,7 @@ export default function ProductCard({ product, index = 0, viewMode = "grid" }) {
 
             {!product.inStock ? (
               <div style={{ marginTop: "auto", marginBottom: "auto", width: "100%", textAlign: "center", padding: "0 6px" }} onClick={(e) => e.stopPropagation()}>
-                <p style={{ margin: "0 0 10px 0", fontSize: "0.76rem", color: "var(--color-primary-800, #7a403d)", fontWeight: 600, letterSpacing: "0.01em" }}>
+                <p style={{ margin: "0 0 10px 0", fontSize: "0.76rem", color: "var(--color-primary-800, #314B35)", fontWeight: 600, letterSpacing: "0.01em" }}>
                   Currently Sold Out • Join Restock List
                 </p>
                 <EmailCapture 

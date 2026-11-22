@@ -376,7 +376,7 @@ export default function SubscribersClient({ initialSubscribers = [] }) {
                   return (
                     <tr 
                       key={sub.id}
-                      style={{ backgroundColor: isSelected ? "rgba(122, 64, 61, 0.03)" : "transparent" }}
+                      style={{ backgroundColor: isSelected ? "rgba(49, 75, 53, 0.03)" : "transparent" }}
                     >
                       <td>
                         <input

@@ -219,7 +219,7 @@ export default function ProductQuickView({ product }) {
             marginBottom: "var(--space-4)",
             textAlign: "center"
           }}>
-            <p style={{ margin: "0 0 8px 0", fontSize: "0.8rem", color: "#7a403d", fontWeight: 600 }}>
+            <p style={{ margin: "0 0 8px 0", fontSize: "0.8rem", color: "var(--color-primary, #3E5F44)", fontWeight: 600 }}>
               Currently Sold Out • Join Restock List
             </p>
             <EmailCapture 

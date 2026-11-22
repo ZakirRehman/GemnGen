@@ -73,10 +73,10 @@ export default function InstallPrompt() {
     <div className={styles.installBanner}>
       <div className={styles.content}>
         <div className={styles.iconContainer}>
-          <img src="/icons/icon-192x192.png" alt="NailExpress App" className={styles.appIcon} />
+          <img src="/icons/icon-192x192.png" alt="Gem&Gen App" className={styles.appIcon} />
         </div>
         <div className={styles.textContainer}>
-          <h4 className={styles.title}>Install NailExpress</h4>
+          <h4 className={styles.title}>Install Gem&amp;Gen</h4>
           <p className={styles.subtitle}>
             {isIOS 
               ? <>Tap <Share size={12} style={{display:'inline', verticalAlign:'middle', margin:'0 2px'}}/> then "Add to Home Screen"</>

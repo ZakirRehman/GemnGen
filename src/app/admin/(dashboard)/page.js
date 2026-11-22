@@ -6,7 +6,7 @@ import { FALLBACK_ORDERS, FALLBACK_CUSTOM_ORDERS } from '@/lib/fallbackData';
 export const dynamic = 'force-dynamic';
 
 export const metadata = {
-  title: 'Admin Dashboard | NailExpress',
+  title: 'Admin Dashboard | Gem&Gen',
 };
 
 export default async function AdminDashboardPage() {

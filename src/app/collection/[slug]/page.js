@@ -11,11 +11,11 @@ export async function generateMetadata({ params }) {
 
   if (!category) {
     return {
-      title: "Collection Not Found — Nailexpress",
+      title: "Collection Not Found — Gem&Gen",
     };
   }
 
-  const title = `${category.name} Collection — Nailexpress`;
+  const title = `${category.name} Collection — Gem&Gen`;
   const description = category.description || category.tagline || `Browse our exclusive ${category.name} press-on nails collection in Nigeria.`;
 
   return {

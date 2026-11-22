@@ -47,7 +47,7 @@ export default function GiftBoxBanner() {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>What's inside your Nail Express box?</h2>
+      <h2 className={styles.title}>What's inside your Gem&amp;Gen box?</h2>
       
       {/* Floating Interactive Badge Indicator */}
       <div className={styles.indicatorBadge}>
@@ -71,7 +71,7 @@ export default function GiftBoxBanner() {
       >
         <Image
           src="/images/gift-box-banner-v2.png"
-          alt="What's inside your Nail Express box"
+          alt="What's inside your Gem&Gen box"
           width={1920}
           height={1080}
           sizes="100vw"

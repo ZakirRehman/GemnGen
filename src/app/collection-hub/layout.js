@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Explore All Collections — Nailexpress",
+  title: "Explore All Collections — Gem&Gen",
   description: "Browse all press-on nail collections. From signature handmade designs to factory styles and bespoke custom sets.",
   alternates: {
     canonical: "https://www.nailexpress.ng/collection-hub",
@@ -16,14 +16,14 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Explore All Collections — Nailexpress",
+    title: "Explore All Collections — Gem&Gen",
     description: "Browse all press-on nail collections. From signature handmade designs to factory styles and bespoke custom sets.",
     url: "https://www.nailexpress.ng/collection-hub",
-    images: [{ url: "/images/og-preview.jpg", width: 1200, height: 630, alt: "Nailexpress Collections" }],
+    images: [{ url: "/images/og-preview.jpg", width: 1200, height: 630, alt: "Gem&Gen Collections" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Explore All Collections — Nailexpress",
+    title: "Explore All Collections — Gem&Gen",
     description: "Browse all press-on nail collections. From signature handmade designs to factory styles and bespoke custom sets.",
     images: ["/images/og-preview.jpg"],
   },

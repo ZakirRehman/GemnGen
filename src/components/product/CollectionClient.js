@@ -223,7 +223,7 @@ export default function CollectionClient({ category, allProducts, featuredProduc
                       fontWeight: 600,
                       letterSpacing: "0.02em",
                       textDecoration: "none",
-                      boxShadow: "0 4px 14px rgba(122, 64, 61, 0.2)",
+                      boxShadow: "0 4px 14px rgba(49, 75, 53, 0.2)",
                       transition: "all 0.2s ease"
                     }}
                   >

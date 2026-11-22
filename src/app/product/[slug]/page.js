@@ -7,13 +7,13 @@ export async function generateMetadata({ params }) {
     const { slug } = await params;
     const product = await getProductBySlug(slug);
     if (!product) {
-      return { title: "Product Not Found — Nailexpress" };
+      return { title: "Product Not Found — Gem&Gen" };
     }
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.nailexpress.ng";
     const imageUrl = product.images?.[0] ?? `${baseUrl}/images/og-preview.jpg`;
     return {
-      title: `${product.name} — Nailexpress`,
-      description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Nailexpress.`,
+      title: `${product.name} — Gem&Gen`,
+      description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Gem&Gen.`,
       alternates: {
         canonical: `${baseUrl}/product/${product.slug}`,
       },
@@ -29,23 +29,23 @@ export async function generateMetadata({ params }) {
         },
       },
       openGraph: {
-        title: `${product.name} — Nailexpress`,
-        description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Nailexpress.`,
+        title: `${product.name} — Gem&Gen`,
+        description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Gem&Gen.`,
         url: `${baseUrl}/product/${product.slug}`,
-        siteName: "Nailexpress",
+        siteName: "Gem&Gen",
         type: "website",
         images: [{ url: imageUrl, width: 1000, height: 1000, alt: product.name }],
       },
       twitter: {
         card: "summary_large_image",
-        title: `${product.name} — Nailexpress`,
-        description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Nailexpress.`,
+        title: `${product.name} — Gem&Gen`,
+        description: product.description || `Shop ${product.name} premium press-on nails in Nigeria at Gem&Gen.`,
         images: [imageUrl],
       },
     };
   } catch (err) {
     console.error("generateMetadata error:", err);
-    return { title: "Product — Nailexpress" };
+    return { title: "Product — Gem&Gen" };
   }
 }
 
@@ -82,11 +82,11 @@ export default async function ProductDetailPage({ params }) {
       "image": product.images && product.images.length > 0 
         ? product.images.map(img => img.startsWith('http') ? img : `${baseUrl}${img}`)
         : [productImageUrl],
-      "description": product.description || `Buy ${product.name} luxury press-on nails in Nigeria at Nailexpress.`,
+      "description": product.description || `Buy ${product.name} luxury press-on nails in Nigeria at Gem&Gen.`,
       "sku": product.id || product.slug,
       "brand": {
         "@type": "Brand",
-        "name": "Nailexpress"
+        "name": "Gem&Gen"
       },
       "offers": {
         "@type": "Offer",
@@ -98,7 +98,7 @@ export default async function ProductDetailPage({ params }) {
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "name": "Nailexpress"
+          "name": "Gem&Gen"
         }
       },
       "aggregateRating": {

@@ -3,7 +3,7 @@ import { products as fallbackProducts } from "@/data/products";
 import CartClient from "./CartClient";
 
 export const metadata = {
-  title: "Shopping Cart — Nailexpress",
+  title: "Shopping Cart — Gem&Gen",
   description: "View and checkout your selected press-on nails.",
 };
 

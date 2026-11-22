@@ -89,7 +89,7 @@ export default function SplashAnimation() {
         left: 0,
         width: "100vw",
         height: "100vh",
-        backgroundColor: "#F5E3E5", // Hero section blush pink
+        backgroundColor: "#F2EBE5", // Strawberry Matcha milk background
         zIndex: 99999,
         display: "flex",
         alignItems: "center",
@@ -117,17 +117,17 @@ export default function SplashAnimation() {
           0% {
             transform: perspective(1000px) rotateX(28deg) rotateY(-22deg) scale(0.65) translateY(45px);
             opacity: 0;
-            filter: blur(8px) drop-shadow(0 25px 35px rgba(122, 64, 61, 0.35));
+            filter: blur(8px) drop-shadow(0 25px 35px rgba(49, 75, 53, 0.35));
           }
           65% {
             transform: perspective(1000px) rotateX(-6deg) rotateY(4deg) scale(1.06) translateY(-10px);
             opacity: 1;
-            filter: blur(0px) drop-shadow(0 15px 35px rgba(122, 64, 61, 0.25));
+            filter: blur(0px) drop-shadow(0 15px 35px rgba(49, 75, 53, 0.25));
           }
           100% {
             transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1) translateY(0);
             opacity: 1;
-            filter: blur(0px) drop-shadow(0 12px 28px rgba(122, 64, 61, 0.2));
+            filter: blur(0px) drop-shadow(0 12px 28px rgba(49, 75, 53, 0.2));
           }
         }
 
@@ -254,20 +254,20 @@ export default function SplashAnimation() {
         <div style={{ position: "relative", overflow: "hidden", borderRadius: "16px", padding: "10px" }}>
           {/* Main Logo Image */}
           <Image
-            src="/images/splash-logo.png"
-            alt="Nailexpress Logo"
+            src="/images/gemandgen-logo.png"
+            alt="Gem&Gen Logo"
             width={350}
-            height={223}
+            height={195}
             priority
             style={{
               objectFit: "contain",
               maxWidth: "85vw",
               height: "auto",
-              filter: "drop-shadow(0 16px 32px rgba(122, 64, 61, 0.22))",
+              filter: "drop-shadow(0 16px 32px rgba(49, 75, 53, 0.22))",
             }}
           />
 
-          {/* Diagonal Metallic Gold Light Sweep Overlay */}
+          {/* Diagonal Pearlescent Strawberry Matcha Light Sweep Overlay */}
           <div
             style={{
               position: "absolute",
@@ -275,7 +275,7 @@ export default function SplashAnimation() {
               left: 0,
               width: "60%",
               height: "100%",
-              background: "linear-gradient(90deg, transparent 0%, rgba(255, 235, 175, 0.65) 50%, transparent 100%)",
+              background: "linear-gradient(90deg, transparent 0%, rgba(250, 220, 226, 0.5) 30%, rgba(255, 255, 255, 0.75) 50%, rgba(250, 220, 226, 0.5) 70%, transparent 100%)",
               transform: "skewX(-25deg)",
               animation: "goldShimmerSweep 2.2s ease-in-out 0.5s infinite",
               pointerEvents: "none",

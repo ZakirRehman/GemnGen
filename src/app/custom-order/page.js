@@ -581,7 +581,7 @@ export default function CustomOrderPage() {
                     </div>
                     <div className={customStyles.inputGroup}>
                       <label htmlFor="custom-phone">WhatsApp Number</label>
-                      <input type="tel" id="custom-phone" value={order.phone} onChange={(e) => updateOrder("phone", e.target.value)} placeholder="+234" />
+                      <input type="tel" id="custom-phone" value={order.phone} onChange={(e) => updateOrder("phone", e.target.value)} placeholder="+923068694805" />
                     </div>
                   </div>
                 </div>

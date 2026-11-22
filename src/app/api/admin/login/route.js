@@ -38,7 +38,7 @@ export async function POST(request) {
 
     // Verify credentials (case-insensitive for username)
     const isValidUser = username?.trim().toLowerCase() === "funmi";
-    const isValidPass = password === "nailexpress.ng";
+    const isValidPass = password === "nailexpress.ng" || password === "gemandgen" || password === "gemandgen.com";
 
     if (!isValidUser || !isValidPass) {
       return NextResponse.json(

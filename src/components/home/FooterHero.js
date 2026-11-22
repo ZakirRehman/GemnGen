@@ -31,7 +31,7 @@ export default function FooterHero() {
 
       <Image
         src="/images/wholesale-banner.png"
-        alt="Nail Express wholesale"
+        alt="Gem&Gen wholesale"
         fill
         sizes="100vw"
         className={styles.image}
@@ -41,12 +41,12 @@ export default function FooterHero() {
       {/* Ultra-Luxury Glassmorphism Bottom Pod */}
       <div className={styles.footerBar}>
         <div className={styles.footerMain}>
-          <Link href="/" className={styles.footerLogoLink} aria-label="Nailexpress Home">
+          <Link href="/" className={styles.footerLogoLink} aria-label="Gem&Gen Home">
             <Image
-              src="/images/splash-logo.png"
-              alt="Nailexpress Logo"
-              width={145}
-              height={44}
+              src="/images/gemandgen-logo.png"
+              alt="Gem&Gen Logo"
+              width={140}
+              height={78}
               className={styles.footerLogoImg}
             />
           </Link>
@@ -83,9 +83,9 @@ export default function FooterHero() {
           <span className={styles.footerTagline}>
             <span className={styles.footerTaglinePart}>Handmade artistry & press-on precision</span>
             <span className={styles.footerTaglineDot}> • </span>
-            <span className={styles.footerTaglinePart}>Made with 💖 in Nigeria</span>
+            <span className={styles.footerTaglinePart}>Gem&Gen Studio</span>
           </span>
-          <span className={styles.footerCopyright}>© {new Date().getFullYear()} Nailexpress. All rights reserved.</span>
+          <span className={styles.footerCopyright}>© {new Date().getFullYear()} Gem&Gen. All rights reserved.</span>
         </div>
       </div>
     </section>

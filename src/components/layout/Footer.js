@@ -60,10 +60,10 @@ export default function Footer() {
         <div className={styles.topRow}>
           <Link href="/" className={styles.logoLink}>
             <Image
-              src="/images/splash-logo.png"
-              alt="Nailexpress Logo"
+              src="/images/gemandgen-logo.png"
+              alt="Gem&Gen Logo"
               width={140}
-              height={42}
+              height={78}
               className={styles.footerLogoImg}
             />
           </Link>
@@ -93,9 +93,9 @@ export default function Footer() {
           <span className={styles.tagline}>
             <span>Handmade artistry & factory precision</span>
             <span className={styles.taglineDot}> • </span>
-            <span className={styles.taglineSub}>Made with 💖 in Nigeria</span>
+            <span className={styles.taglineSub}>Gem&Gen Studio</span>
           </span>
-          <span className={styles.copyright}>© {new Date().getFullYear()} Nailexpress. All rights reserved.</span>
+          <span className={styles.copyright}>© {new Date().getFullYear()} Gem&Gen. All rights reserved.</span>
         </div>
       </div>
     </footer>

@@ -5,7 +5,7 @@ import { FALLBACK_SUBSCRIBERS } from "@/lib/fallbackData";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Subscribers & Restock Leads | Nail Express Admin",
+  title: "Subscribers & Restock Leads | Gem&Gen Admin",
 };
 
 export default async function SubscribersPage() {

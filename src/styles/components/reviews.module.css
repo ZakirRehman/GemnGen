@@ -58,7 +58,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background-color: var(--color-primary, #7a403d);
+  background-color: var(--color-primary, #3E5F44);
   color: #ffffff;
   border: none;
   padding: 10px 18px;
@@ -67,7 +67,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 12px rgba(122, 64, 61, 0.2);
+  box-shadow: 0 4px 12px rgba(49, 75, 53, 0.2);
   white-space: nowrap;
 }
 
@@ -78,9 +78,9 @@
 }
 
 .writeReviewBtn:hover {
-  background-color: #633330;
+  background-color: var(--color-primary-dark);
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(122, 64, 61, 0.28);
+  box-shadow: 0 6px 16px rgba(49, 75, 53, 0.28);
 }
 
 /* Overall Rating Breakdown Box */
@@ -173,7 +173,7 @@
 
 .barFill {
   height: 100%;
-  background-color: var(--color-primary, #7a403d);
+  background-color: var(--color-primary, #3E5F44);
   border-radius: 999px;
   transition: width 0.4s ease;
 }
@@ -356,7 +356,7 @@
   align-items: center;
   gap: 4px;
   background: transparent;
-  color: var(--color-primary, #7a403d);
+  color: var(--color-primary, #3E5F44);
   border: none;
   font-size: 0.875rem;
   font-weight: 500;
@@ -531,7 +531,7 @@
 }
 
 .formInput:focus, .formTextarea:focus {
-  border-color: var(--color-primary, #7a403d);
+  border-color: var(--color-primary, #3E5F44);
   background-color: #ffffff;
 }
 
@@ -552,12 +552,12 @@
 }
 
 .dropzone:hover {
-  border-color: var(--color-primary, #7a403d);
+  border-color: var(--color-primary, #3E5F44);
   background-color: #fbf5f5;
 }
 
 .uploadIcon {
-  color: var(--color-primary, #7a403d);
+  color: var(--color-primary, #3E5F44);
   margin-bottom: 4px;
 }
 
@@ -609,7 +609,7 @@
 
 .submitBtn {
   width: 100%;
-  background-color: var(--color-primary, #7a403d);
+  background-color: var(--color-primary, #3E5F44);
   color: #ffffff;
   border: none;
   padding: 12px;

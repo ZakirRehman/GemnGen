@@ -4,7 +4,7 @@ import { getAdminCollections } from "@/lib/api";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Collections | Nail Express Admin",
+  title: "Collections | Gem&Gen Admin",
   description: "Manage product collections and control storefront navigation visibility",
 };
 

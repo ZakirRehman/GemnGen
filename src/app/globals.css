@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════════
-   NAILEXPRESS — Global Design System
-   Premium press-on nails ecommerce
+   GEM&GEN — Global Design System
+   Theme: Strawberry Matcha
    ═══════════════════════════════════════════════════════════════════ */
 
 /* ── Google Fonts ─────────────────────────────────────────────────── */
@@ -8,51 +8,51 @@
 
 /* ── Design Tokens ────────────────────────────────────────────────── */
 :root {
-  /* Primary — Deep Maroon/Brown */
-  --color-primary: #7a403d;
-  --color-primary-light: #945350;
-  --color-primary-dark: #5c2c2a;
-  --color-primary-50: #fcf6f6;
-  --color-primary-100: #f7e8e8;
-  --color-primary-200: #eecbcb;
-  --color-primary-300: #e0a3a2;
-  --color-primary-400: #cc7574;
-  --color-primary-500: #b3504f;
-  --color-primary-600: #983c3a;
-  --color-primary-700: #803231;
-  --color-primary-800: #7a403d;
-  --color-primary-900: #632d2c;
+  /* Primary — Ceremonial Matcha Green */
+  --color-primary: #3E5F44;
+  --color-primary-light: #557E5C;
+  --color-primary-dark: #2B4330;
+  --color-primary-50: #F3F7F4;
+  --color-primary-100: #E4ECE5;
+  --color-primary-200: #C7D8C8;
+  --color-primary-300: #A5BFA7;
+  --color-primary-400: #7FA382;
+  --color-primary-500: #5E8662;
+  --color-primary-600: #4B6E4F;
+  --color-primary-700: #3E5C42;
+  --color-primary-800: #314B35;
+  --color-primary-900: #223525;
 
-  /* Accent — Warm Gold/Pink */
-  --color-accent: #d39f99;
-  --color-accent-light: #eac5c1;
-  --color-accent-dark: #b57a73;
+  /* Accent — Sweet Strawberry Blush / Berry */
+  --color-accent: #D96B7E;
+  --color-accent-light: #FADCE2;
+  --color-accent-dark: #B6475A;
 
-  /* Neutrals */
-  --color-bg: #fdf6f7;
-  --color-bg-warm: #F5E3E5;
+  /* Neutrals — Creamy Oat Milk & Froth */
+  --color-bg: #FAF7F4;
+  --color-bg-warm: #F2EBE5;
   --color-bg-card: #ffffff;
-  --color-bg-overlay: rgba(107, 54, 52, 0.55);
-  --color-surface: #fdf6f7;
-  --color-surface-hover: #f5e4e6;
+  --color-bg-overlay: rgba(34, 53, 37, 0.58);
+  --color-surface: #FAF7F4;
+  --color-surface-hover: #EFF3EE;
 
-  --color-btn-gradient: linear-gradient(90deg, #ffa8b6, #ff7e95);
-  --color-pink: #ff7e95;
-  --color-pink-light: #ffc2cd;
+  --color-btn-gradient: linear-gradient(90deg, #E67A8C, #D2586D);
+  --color-pink: #E27385;
+  --color-pink-light: #FCE8EC;
 
-  --color-text: #2c1810;
-  --color-text-secondary: #6b5b50;
-  --color-text-tertiary: #9a8a7d;
+  --color-text: #1E281F;
+  --color-text-secondary: #4D5C4F;
+  --color-text-tertiary: #7D8E7F;
   --color-text-inverse: #ffffff;
 
-  --color-border: #e6cfd2;
-  --color-border-light: #f2e2e4;
+  --color-border: #DCE4DC;
+  --color-border-light: #EFF3EF;
 
   /* Feedback */
-  --color-success: #4a9e6e;
-  --color-error: #c44d4d;
-  --color-warning: #c9a96e;
-  --color-info: #a86a7d;
+  --color-success: #448053;
+  --color-error: #C9434F;
+  --color-warning: #C99E52;
+  --color-info: #D96B7E;
 
   /* Typography */
   --font-heading: 'Cormorant Upright', Georgia, 'Times New Roman', serif;
@@ -103,11 +103,11 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(44, 24, 16, 0.06);
-  --shadow-md: 0 4px 12px rgba(44, 24, 16, 0.08);
-  --shadow-lg: 0 8px 30px rgba(44, 24, 16, 0.1);
-  --shadow-xl: 0 16px 50px rgba(44, 24, 16, 0.12);
-  --shadow-glow: 0 0 20px rgba(196, 100, 122, 0.2);
+  --shadow-sm: 0 1px 3px rgba(30, 40, 31, 0.06);
+  --shadow-md: 0 4px 12px rgba(30, 40, 31, 0.08);
+  --shadow-lg: 0 8px 30px rgba(30, 40, 31, 0.1);
+  --shadow-xl: 0 16px 50px rgba(30, 40, 31, 0.12);
+  --shadow-glow: 0 0 20px rgba(217, 107, 126, 0.25);
 
   /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);

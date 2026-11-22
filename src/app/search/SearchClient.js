@@ -79,7 +79,7 @@ function SearchContent({ allProducts }) {
                   fontSize: "0.88rem",
                   fontWeight: 600,
                   textDecoration: "none",
-                  boxShadow: "0 4px 14px rgba(122, 64, 61, 0.25)"
+                  boxShadow: "0 4px 14px rgba(49, 75, 53, 0.25)"
                 }}
               >
                 Place a Custom Order
